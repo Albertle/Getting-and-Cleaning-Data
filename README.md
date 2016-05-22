@@ -18,7 +18,7 @@ You do not have to read in all the data :)
 # return value
 function run_analysis have three return value  
 -the merged dataset after step 1, contains all the measurements and the activity and subject columns. So it's a 10299 * 563 dimension data frame  
--the mean and std measurement dataset created after step 2, here I only extracted the mean() and std() measurement, meanFreq() is not considered. So is's a 10299 * (66+2) dimension data frame
+-the mean and std measurement dataset created after step 2, here I only extracted the mean() and std() measurement, meanFreq() is not considered. So is's a 10299 * (66+2) dimension data frame  
 -the grouped dataset created according to the instruction of step 5  
 these three data frame is packed in a list object and it's the return value  
 # Sometimes errors will occur like " Error: found duplicated column name". This seems a bug in RStudio and reopen it can solve this   problem. Thx!   
